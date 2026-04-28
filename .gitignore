@@ -112,4 +112,5 @@ pnpm-debug.log*
 .netlify/
 tmp/
 temp/
-memory-game/
+# Only ignore a root-level memory-game folder (not frontend/modules/memory-game)
+/memory-game/
